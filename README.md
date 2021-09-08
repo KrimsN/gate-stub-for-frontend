@@ -1,0 +1,1 @@
+gate-stub-for-frontend
