@@ -8,8 +8,8 @@ CONFIG = {}
 def setup_config():
     global CONFIG
     config = Config('.env')
-    CONFIG['var_11'] = config('VAR11')
-    CONFIG['var_22'] = config('VAR22')
+    CONFIG['var_11'] = config('VAR11', default=None)
+    CONFIG['var_22'] = config('VAR22', default=None)
 
 
 setup_config()
